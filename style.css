@@ -12,4 +12,90 @@
 /* body */
 body{
     font-family: 'Poppins', sans-serif;
+    color: #333333;
 }
+
+/* section common*/
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: space-around; */
+    justify-content: space-around;
+
+}
+
+.yellow{
+    color: #ffad5a;
+}
+.tomato{
+    color: tomato;
+}
+a.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background:#ff5959 ;
+    padding:10px 20px ;
+    border-radius: 5px;
+}
+
+a.button:hover{
+    background:#333333 ;
+}
+
+
+section .half{
+    width: 35%;  
+}
+
+section .half img{
+    width: 80%;
+
+}
+
+section .half p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 25px 0;
+    color: #6c6c6c;
+}
+
+/* section One */
+section.section_one{
+    background: url('images/shapes/top-banner.png');
+    position: top left;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+section.section_one .half h1.section_title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    color: #333333;
+    line-height: 65px;
+    font-weight: 400;
+    border-left: 4px solid tomato;
+    margin: 20px 0px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+section.section_one .half p.scroll{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+scroll
+section .half-left{
+    padding: 5%;
+    padding-left: 10%;
+    width: 40%;
+}
+section .half-right{
+    /* padding-right: 10%; */
+    /* width: 40%; */
+}
+
+
